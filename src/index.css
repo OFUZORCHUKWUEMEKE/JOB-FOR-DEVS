@@ -1,0 +1,68 @@
+
+.contain{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+input{
+    padding: 5px !important;
+    width: 50% !important;
+    border: 1px  solid  !important ;
+    border-radius: 5px !important;
+}
+
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+form a {
+    width: 100% !important;
+}
+/* Form button {
+    width: 100%;
+} */
+
+button{
+    padding: 15px;
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(0, 104, 189) !important;
+    transition: 0.3s;
+    align-self: center;
+}
+
+button:hover{
+    background-color: white !important;
+    color: rgb(20, 20, 192);
+    font-size: bold;
+    border: 1px solid rgb(0, 104, 189) ;
+}
+Link{
+    align-self: center;
+}
+.card-panel{
+    height: 570px !important;
+
+}
+
+@media(max-width:760px){
+    .card-panel{
+        height: 100% !important;
+    }
+}
+
+
+.free{
+    position: relative;
+    margin-top: 100px;
+}
+
